@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+#bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#moon{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+#cloud1{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    z-index: 2;
+    
+}
+#cloud2{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    right: 50px;
+    z-index: 2;
+}
+#santa{
+    width: 600px;
+    position: absolute;
+    bottom: 50px;
+    left -600px;
+    transform: scale(0.5);
+    
+}
+#trees{
+    background-image: url(trees.png);
+    background-position: 300px;
+    width: 200%;
+    height: 266px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+}
+#text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    z-index: 3;
+}
